@@ -1,0 +1,17 @@
+{
+  "name": "watchnow",
+  "version": "1.0.0",
+  "description": "HomePage",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss CSS/WatchNowPage/Style.css -w"
+  },
+  "author": "BETTACHE KARIM",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
